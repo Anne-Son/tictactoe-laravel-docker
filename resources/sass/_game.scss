@@ -1,0 +1,36 @@
+body {
+    background-image: url(../../public/background.png);
+}
+main {
+    width: 80%;
+    margin: 16% auto;
+}
+.board {
+    width: 31rem;
+    height: 31rem;
+    margin: auto;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 1500px) {
+    main {
+        margin: 25% auto;
+    }
+}
+@media screen and (max-width: 987px) {
+    main {
+        margin: 50% auto;
+    }
+@media screen and (max-width: 600px) {
+    main {
+        margin: 50% auto;
+    }
+}

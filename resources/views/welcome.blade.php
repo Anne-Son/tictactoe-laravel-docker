@@ -18,7 +18,9 @@
         </style>
     </head>
     <body class="antialiased">
-        <div id="example"></div>
+    <div id="title"></div> 
+    <div id="sidebar"></div>
+        <div id="game"></div>
      <script src="{{ asset('js/app.js') }}" defer></script>
     </body>
 </html>
